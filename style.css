@@ -1,0 +1,197 @@
+/* Pastel theme background and text */
+body {
+    background-color: #fef6f0; /* very light peach */
+    color: #4a4a4a; /* soft dark gray for text */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: #a3d2ca !important; /* pastel teal */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: #4a4a4a !important; /* soft dark gray */
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffb5a7 !important; /* pastel pink */
+    border-bottom: 2px solid #ffb5a7;
+  }
+  
+  /* Content sections */
+  section {
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #ffffff; /* white for sections */
+    box-shadow: 0 2px 5px rgba(163, 210, 202, 0.3); /* subtle pastel teal shadow */
+    color: #4a4a4a;
+  }
+  
+  .content {
+    padding-top: 100px; /* Avoid content behind fixed navbar */
+  }
+  
+  /* Fade-in animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .text-pastel-primary {
+    color: #567189; /* pastel blue */
+  }
+  #backToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100; /* On top */
+    font-size: 24px;
+    background-color: #567189; /* pastel blue */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #405a73; /* darker pastel blue */
+  }
+  .text-pastel-primary {
+    color: #d28ca6; /* pastel blush pink */
+  }
+  .hero-section {
+    background-color: #fff0f5; /* very soft blush pink */
+  }
+  
+  .btn-pastel-primary {
+    background-color: #d28ca6;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-pastel-primary:hover {
+    background-color: #b46e8a;
+    color: white;
+  }
+/* Base nav style */
+#navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* On scroll */
+  #navbar.scrolled {
+    background-color: #ffd1dc !important; /* pastel pink */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover on nav items */
+  .navbar-nav .nav-link {
+    color: #8b5d7a; /* soft plum */
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #fbe4ec; /* pastel highlight */
+    color: #5c3750;
+    border-radius: 8px;
+  }
+.card {
+  border-radius: 16px;
+  background-color: #fffafc;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 192, 203, 0.2);
+}
+#testimonials {
+  background-color: #fff5f7; /* soft pastel pink */
+  color: #5c3750;
+}
+
+#testimonials .card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#testimonials .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 192, 203, 0.2);
+}
+#events {
+  background-color: #fdf2f8; /* soft pastel rose */
+  color: #5c3750;
+}
+
+#events .card {
+  border-radius: 16px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+#events .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 192, 203, 0.2);
+}
+#join {
+  background-color: #fef6fb; /* soft pastel pink */
+  color: #5c3750;
+}
+
+#join input.form-control {
+  border-radius: 30px 0 0 30px;
+  padding: 0.75rem;
+  border: 1px solid #ffc6dd;
+}
+
+#join button.btn {
+  border-radius: 0 30px 30px 0;
+  background-color: #ffb6c1;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+#join button.btn:hover {
+  background-color: #ff8fa3;
+}
+.footer {
+  background-color: #fdf2f8; /* pastel pink */
+  color: #5c3750;
+  font-size: 0.95rem;
+  border-top: 1px solid #ffc6dd;
+}
+
+.footer-link {
+  color: #d8839d;
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ff4f87;
+  text-decoration: underline;
+}
+        
