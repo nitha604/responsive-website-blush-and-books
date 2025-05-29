@@ -27,5 +27,5 @@ Welcome to **Blush & Books**, a cozy, pastel-themed website built for book lover
 ├── index.html               # Homepage
 ├── style.css                # Custom styling
 ├── images/                  # Book cover images and design assets
-├── script.js                # Optional JavaScript (if any)
+├── script.js                # JavaScript 
 └── README.md                # Project description
